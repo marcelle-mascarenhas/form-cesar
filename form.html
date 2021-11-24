@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5JGKPVP');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="arquivo.js"></script>
+    <title>Formulário</title>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JGKPVP"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="box" id="scroll">
+        <form action="" id="teste">
+            <fieldset>
+                <legend><b>Form demo</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <br><br>
+                    <label for="nome" class="labelInput">Qual o nome da sua organização?</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Qual o e-mail de contato?</label>
+                </div>
+                <br><br>
+                <div class="radio-item">
+                    <p class="question">Qual o tamanho da sua organização?</p>
+                    <br>
+                    <input type="radio" id="microEmpresa" name="tamanho" value="microEmpresa" required>
+                    <label for="microEmpresa">Microempresa</label>
+                    <br><br>
+                    <input type="radio" id="pequenaEmpresa" name="tamanho" value="pequenaEmpresa" required>
+                    <label for="pequenaEmpresa">Pequena Empresa</label>
+                    <br><br>
+                    <input type="radio" id="mediaEmpresa" name="tamanho" value="mediaEmpresa" required>
+                    <label for="mediaEmpresa">Média Empresa</label>
+                    <br><br>
+                    <input type="radio" id="grandeEmpresa" name="tamanho" value="grandeEmpresa" required>
+                    <label for="grandeEmpresa">Grande Empresa</label>
+                </div>
+                <br><br>
+                <div class="radio-item">
+                    <p class="question">Sua organização tem quantos colaboradores?</p>
+                    <br>
+                    <input type="radio" id="colaboradores19" name="quantidade" value="" required>
+                    <label for="microEmpresa">Até 19 colaboradores</label>
+                    <br><br>
+                    <input type="radio" id="colaboradores99" name="quantidade" value="" required>
+                    <label for="pequenaEmpresa">Entre 20 e 99 colaboradores</label>
+                    <br><br>
+                    <input type="radio" id="colaboradores499" name="quantidade" value="" required>
+                    <label for="mediaEmpresa">Entre 100 a 499 colaboradores</label>
+                    <br><br>
+                    <input type="radio" id="colaboradores500" name="quantidade" value="grandeEmpresa" required>
+                    <label for="grandeEmpresa">Mais de 500 colaboradores</label>
+                </div>
+                <br><br>
+                <div class="radio-item">
+                    <p class="question">Qual o seu cargo?</p>
+                    <br>
+                    <input type="radio" id="analista" name="cargo" value="analista" required>
+                    <label for="analista">Analista</label>
+                    <br><br>
+                    <input type="radio" id="CEO" name="cargo" value="CEO" required>
+                    <label for="CEO">CEO</label>
+                    <br><br>
+                    <input type="radio" id="consultor" name="cargo" value="consultor" required>
+                    <label for="consultor">Consultor</label>
+                    <br><br>
+                    <input type="radio" id="outros" name="cargo" value="outros" required>
+                    <label for="Outros">Outros</label>
+                </div>
+                <br><br>
+
+                <input type="submit" name="submit" id="submit">
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
